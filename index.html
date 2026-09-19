@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Specular Games — mobile game studio creating fun, immersive games for Android and iOS.">
+  <title>Specular Games — Mobile Game Studio</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Specular Games home">
+      <img id="brandLogo" src="assets/logo.svg" alt="Specular Games logo">
+      <span id="brandName">Specular Games</span>
+    </a>
+    <nav class="nav">
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#games">Explore Games <span>↗</span></a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span><span id="heroEyebrow">MOBILE GAME STUDIO</span></div>
+        <h1 id="heroTitle">We build games<br><em>made to be played.</em></h1>
+        <p id="heroText">Specular Games creates engaging mobile experiences across driving, simulation, casual and family-friendly genres.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#games">View Our Games <span>→</span></a>
+          <a class="btn ghost" href="#contact">Get in Touch</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong id="statGames">02</strong><span>Published Games</span></div>
+          <div><strong id="statDownloads">1M+</strong><span>Downloads</span></div>
+          <div><strong id="statPlatform">Android</strong><span>Mobile Platform</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="hero-card">
+          <div class="card-top"><span>SPECULAR / PLAY</span><span>01</span></div>
+          <img id="heroImage" src="" alt="Featured game">
+          <div class="hero-card-overlay">
+            <span id="heroGameGenre">DRIVING SIMULATOR</span>
+            <h3 id="heroGameTitle">Van Racing Simulator 3D Games</h3>
+            <a id="heroGameLink" href="#" target="_blank" rel="noopener">Google Play ↗</a>
+          </div>
+        </div>
+        <div class="float-tag tag-one">GAME<br>DEVELOPMENT</div>
+        <div class="float-tag tag-two">UNITY<br>POWERED</div>
+      </div>
+    </section>
+
+    <section id="games" class="section games-section">
+      <div class="section-heading reveal">
+        <div>
+          <div class="kicker">OUR GAMES</div>
+          <h2>Small studio.<br><span>Big play.</span></h2>
+        </div>
+        <p id="gamesIntro">A growing collection of mobile games built with creativity, experimentation and a focus on enjoyable gameplay.</p>
+      </div>
+      <div id="gamesGrid" class="games-grid"></div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-panel reveal">
+        <div class="kicker">ABOUT SPECULAR</div>
+        <h2 id="aboutTitle">Creating worlds for<br><span>mobile players.</span></h2>
+        <p id="aboutText">Specular Games is an independent mobile game studio focused on building accessible, entertaining and visually engaging games. We experiment with different genres and gameplay ideas to create experiences players can pick up and enjoy.</p>
+        <div class="about-pills" id="aboutPills"></div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="stack-card back"></div>
+        <div class="stack-card middle"></div>
+        <div class="stack-card front">
+          <span class="big-mark">SG</span>
+          <span class="small-mark">SPECULAR<br>GAMES</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="section-heading compact reveal">
+        <div>
+          <div class="kicker">WHAT WE DO</div>
+          <h2 id="servicesTitle">From idea to<br><span>playable world.</span></h2>
+        </div>
+      </div>
+      <div id="servicesGrid" class="services-grid"></div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <div class="kicker">LET'S CONNECT</div>
+        <h2 id="contactTitle">Have a game idea?<br><span>Let's talk.</span></h2>
+        <p id="contactText">For business inquiries, partnerships, publishing opportunities or general questions, reach out to us.</p>
+        <a class="email-link" id="contactEmail" href="mailto:sukarhaie@gmail.com">sukarhaie@gmail.com <span>↗</span></a>
+        <div class="socials" id="socials"></div>
+      </div>
+      <div class="contact-decoration"><span>SG</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><img src="assets/logo.svg" alt=""><span id="footerName">Specular Games</span></div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="#games">Games</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div id="copyright">© 2026 Specular Games. All rights reserved.</div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Privacy Policy — Specular Games</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<style>.privacy{max-width:900px;margin:auto;padding:90px 22px 120px}.privacy h1{font-size:clamp(48px,7vw,78px);margin-bottom:15px}.privacy .updated{color:var(--accent);font-size:12px;letter-spacing:.12em;font-weight:800;margin-bottom:55px}.privacy h2{font-size:25px;margin-top:42px}.privacy p,.privacy li{color:var(--muted);font-size:14px}.privacy a{color:var(--accent)}.back{display:inline-flex;margin-bottom:55px;color:#fff;border:1px solid var(--line);padding:10px 13px;border-radius:8px;font-size:12px}</style>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="assets/logo.svg"><span>Specular Games</span></a><a class="back" href="index.html">← Back to website</a></header>
+<main class="privacy">
+<div class="kicker">LEGAL</div>
+<h1>Privacy Policy</h1>
+<div class="updated" id="updated">LAST UPDATED: EDIT THIS DATE</div>
+<div id="privacyContent"></div>
+</main>
+<footer class="footer"><div class="footer-brand"><img src="assets/logo.svg"><span>Specular Games</span></div><div></div><div>© 2026 Specular Games. All rights reserved.</div></footer>
+<script src="privacy-content.js"></script>
+<script>
+document.getElementById("updated").textContent = "LAST UPDATED: " + PRIVACY.lastUpdated;
+document.getElementById("privacyContent").innerHTML = PRIVACY.html;
+</script>
+</body>
+</html>
