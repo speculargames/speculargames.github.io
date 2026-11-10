@@ -59,7 +59,7 @@ const SITE = {
       link: "https://play.google.com/store/apps/details?id=com.spec.kitten.cat.sooper.markete.ep2",
       tags: ["Cat Game", "Casual", "Simulation", "Offline"],
       featured: false
-    },
+    }
     {
       title: "Offroad Jeep Driving Simulator",
       genre: "DRIVING SIMULATOR",
