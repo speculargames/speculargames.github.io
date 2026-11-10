@@ -63,7 +63,7 @@ const SITE = {
     {
       title: "Offroad Jeep Driving Simulator",
       genre: "DRIVING SIMULATOR",
-      description: "Short description.",
+      description: "Drive 4x4 jeeps on mud, mountains & rescue cargo in real offroad simulator game!",
       image: "https://play-lh.googleusercontent.com/J9gMTbhaW09SSOhQin2tv3T_G_J-6qWqEtY-fRgAUXILGZPVrwY_kAPpfRmMLzuDYbpI4jPwZgl2dOAFhnf_owc=w480-h960-rw",
       link: "https://play.google.com/store/apps/details?id=com.speculargames.offroadjeep.jeepdriving.jeepsimulator.jeepgames",
       tags: ["Offroad", "Driving", "3D"],
